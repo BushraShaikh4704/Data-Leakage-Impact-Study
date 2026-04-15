@@ -1,8 +1,94 @@
-# Data-Leakage-Impact-Study
-Experimental study demonstrating how improper data handling can artificially inflate machine learning model performance.
+# 🚀 Data Leakage Impact Study in Machine Learning
 
-## 🚧 Project Status: In Progress
+This project investigates how improper data handling can lead to misleading machine learning model performance.
 
-This project is currently under active development as part of a structured machine learning study.
-The goal is to experimentally demonstrate the impact of data leakage on model performance by comparing proper and flawed ML pipelines.
-Further updates, results, and analysis will be added as the project progresses.
+---
+
+## 🎯 Objective
+
+To compare a **proper machine learning pipeline** with a **leaky pipeline** and analyze how data leakage affects model evaluation.
+
+---
+
+## 🧠 Key Concepts
+
+* Data Leakage
+* Model Evaluation
+* Train/Validation/Test Splitting
+* Feature Engineering Best Practices
+
+---
+
+## ⚙️ Workflow
+
+* Data loading and exploration
+* Proper data splitting (train, validation, test)
+* Feature encoding and scaling (without leakage)
+* Model training using Logistic Regression
+* Performance evaluation (Accuracy, Precision, Recall, F1-score)
+* Creating a leaky pipeline for comparison
+* Analyzing performance differences
+
+---
+
+## 🔬 Experiment Design
+
+### ✅ Proper Pipeline
+
+* Preprocessing applied only on training data
+* Evaluation on unseen test data
+
+### ❌ Leaky Pipeline
+
+* Preprocessing applied on full dataset before splitting
+* Causes information leakage
+
+---
+
+## 📊 Results
+
+* Proper pipeline provided reliable evaluation
+* Leaky pipeline produced misleading results
+* High accuracy did not reflect true model performance
+* Precision, Recall, and F1-score revealed actual issues
+
+---
+
+## 🧠 Key Insights
+
+* Data leakage can make models appear better than they actually are
+* Accuracy alone is not a reliable metric
+* Proper preprocessing is critical for real-world ML systems
+* Experimental design is as important as model selection
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib / Seaborn
+* Jupyter Notebook / Google Colab
+
+---
+
+## 🚀 Future Improvements
+
+* Use advanced models (Random Forest, XGBoost)
+* Apply cross-validation
+* Handle class imbalance techniques
+* Extend to real-world datasets
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome! If you’d like to improve this project<br>
+Feel free to explore, use, and improve the project 🚀
+
+---
+
+## 👩‍💻 Author
+
+Bushra Shaikh
