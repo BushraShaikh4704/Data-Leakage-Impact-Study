@@ -92,3 +92,33 @@ Feel free to explore, use, and improve the project 🚀
 ## 👩‍💻 Author
 
 Bushra Shaikh
+
+## 📸 Project Screenshots
+
+### 🔹 Data Preview
+
+![Data Preview](images/data_preview.png)
+
+### 🔹 Data Splitting
+
+![Data Splitting](images/data_split.png)
+
+### 🔹 Model Performance (Proper Pipeline)
+
+![Metrics](images/metrics.png)
+
+### 🔹 Confusion Matrix
+
+![Confusion Matrix](images/validation_matrics.png)
+
+### 🔹 Leaky Model Performance
+
+![Leaky Model](images/model_performance.png)
+
+### 🔹 Comparison Table
+
+![Comparison](images/comparison.png)
+
+### 🔹 Performance Visualization
+
+![Graph](images/graph.png)
