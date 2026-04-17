@@ -73,6 +73,14 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 
 ---
 
+## 📚 Key Learnings
+
+* Understood the concept and impact of data leakage
+* Learned importance of proper data splitting
+* Realized why accuracy alone is not a reliable metric
+* Gained experience in experimental ML design
+
+
 ## 🚀 Future Improvements
 
 * Use advanced models (Random Forest, XGBoost)
@@ -89,9 +97,12 @@ Feel free to explore, use, and improve the project 🚀
 
 ---
 
-## 👩‍💻 Author
+## 📂 Dataset
 
-Bushra Shaikh
+The dataset used in this project is included in the `Dataset/` folder.
+
+* File: `Employee_Attrition_Dataset.csv`
+
 
 ## 📸 Project Screenshots
 
@@ -122,3 +133,11 @@ Bushra Shaikh
 ### 🔹 Performance Visualization
 
 ![Graph](images/graph.png)
+
+## ❗ Important Note
+
+This project demonstrates that even small mistakes in data preprocessing can lead to misleading results, making model evaluation unreliable in real-world scenarios.
+
+## 👩‍💻 Author
+
+Bushra Shaikh
