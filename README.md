@@ -1,14 +1,13 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # 🚀 Data Leakage Impact Study in Machine Learning
 
 This project investigates how improper data handling can lead to misleading machine learning model performance.
 
----
 
 ## 🎯 Objective
 
 To compare a **proper machine learning pipeline** with a **leaky pipeline** and analyze how data leakage affects model evaluation.
-
----
 
 ## 🧠 Key Concepts
 
@@ -16,8 +15,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Model Evaluation
 * Train/Validation/Test Splitting
 * Feature Engineering Best Practices
-
----
 
 ## ⚙️ Workflow
 
@@ -29,7 +26,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Creating a leaky pipeline for comparison
 * Analyzing performance differences
 
----
 
 ## 🔬 Experiment Design
 
@@ -43,7 +39,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Preprocessing applied on full dataset before splitting
 * Causes information leakage
 
----
 
 ## 📊 Results
 
@@ -52,7 +47,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * High accuracy did not reflect true model performance
 * Precision, Recall, and F1-score revealed actual issues
 
----
 
 ## 🧠 Key Insights
 
@@ -61,7 +55,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Proper preprocessing is critical for real-world ML systems
 * Experimental design is as important as model selection
 
----
 
 ## 🛠️ Tech Stack
 
@@ -71,7 +64,6 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Matplotlib / Seaborn
 * Jupyter Notebook / Google Colab
 
----
 
 ## 📚 Key Learnings
 
@@ -88,14 +80,15 @@ To compare a **proper machine learning pipeline** with a **leaky pipeline** and 
 * Handle class imbalance techniques
 * Extend to real-world datasets
 
----
-
 ## 🤝 Contribution
 
 Contributions are welcome! If you’d like to improve this project<br>
 Feel free to explore, use, and improve the project 🚀
 
----
+## 📄 License
+
+This project is licensed under the MIT License 
+see the [LICENSE↗](LICENSE) file for details.
 
 ## 📂 Dataset
 
